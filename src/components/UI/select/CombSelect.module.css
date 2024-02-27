@@ -1,0 +1,76 @@
+.MycombinedFilter{
+    display: none;
+}
+
+
+.MycombinedFilter.active {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 110%;
+    margin-left: -5px;
+    margin-bottom: -10px;
+    margin-top: -10px;
+}
+
+.myInput {
+    padding: 0 6px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 110%;
+    outline: none;
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+.MyinputCont{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+
+.Mydropdown {
+    list-style: none;
+    position: absolute;
+    top: 100%;
+    margin-left: -4%;
+    margin-top: 1px;
+    width: fit-content;
+    min-width: 80%;
+    /*max-width: 90%;*/
+    background-color: white;
+    border: 1px solid #ccc;
+    border-top: none;
+    border-radius: 0 0 4px 4px;
+    padding-right: 4px;
+    padding-left: 1px;
+    padding-bottom: 1px;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.MydropdownItem {
+    text-align: left;
+    padding-left: 3px;
+    padding-bottom: 1px;
+    padding-top: -1px;
+    width: 100%;
+    border-radius: 2px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.MydropdownItem:hover {
+    background-color: #0F8AFD;
+    color: white;
+}

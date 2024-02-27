@@ -1,0 +1,24 @@
+
+.adminLine {
+    background-color: #e6f7ff;
+    text-align: left;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 1px;
+}
+
+
+.clientLine {
+    background-color: #f0f0f0;
+    text-align: left;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 1px;
+}
+
+
+.adminLabel, .clientLabel {
+    font-weight: bold;
+    padding-right: 10px;
+    text-align: left;
+}
